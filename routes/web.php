@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('ldraw','ClassController@draw_view');   //抽奖视图页面
